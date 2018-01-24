@@ -1,0 +1,19 @@
+{
+  "name": "ga-wdi-boston.browser-template",
+  "version": "0.0.3",
+  "private": true,
+  "license": {
+    "software": "GNU GPLv3",
+    "content": "CC­BY­NC­SA 4.0"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
