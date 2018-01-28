@@ -54,6 +54,11 @@ a {
   list-style: none;
 }
 
+.cell.projects, .cell.skills {
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
 .image-projects {
   background: url(../assets/img/bridge.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
@@ -66,15 +71,25 @@ a {
 .grid-container.projects {
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
-  height: 800px;
+  height: 1800px;
   text-align: center;
   color: #fff;
 }
 
-.cell.projects, .cell.skills {
-  margin-bottom: 5em;
-  margin-top: 5em;
+@media screen and (min-width: 40em){
+  .grid-container.projects {
+    height: 1200px;
+  }
 }
+
+@media screen and (min-width: 64em){
+  .grid-container.projects {
+    height: 800px;
+  }
+}
+
+
+
 
 .image-contact {
   background: url(../assets/img/tree-sky.jpg) no-repeat center fixed;
