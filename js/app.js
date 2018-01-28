@@ -12,14 +12,14 @@ $('#menu-skills').click(function () {
   }, 1000)
 })
 
-// $('#menu-projects').click(function () {
-//   $('html, body').animate({
-//     scrollTop: $('#projects').offset().top
-//   }, 1000)
-// })
+$('#menu-projects').click(function () {
+  $('html, body').animate({
+    scrollTop: $('#projects').offset().top
+  }, 1000)
+})
 
-// $('#menu-contact').click(function () {
-//   $('html, body').animate({
-//     scrollTop: $('#contact').offset().top
-//   }, 1000)
-// })
+$('#menu-contact').click(function () {
+  $('html, body').animate({
+    scrollTop: $('#contact').offset().top
+  }, 1000)
+})

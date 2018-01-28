@@ -1,3 +1,11 @@
+body {
+  background-color: #000;
+}
+
+a {
+  color: #ddd;
+}
+
 .title-bar {
   width: 100%;
   z-index: 10;
@@ -22,7 +30,7 @@
   color: #fff;
 }
 
-.image-test {
+.image-skills {
   background: url(../assets/img/tree-path.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,10 +39,56 @@
   position: relative;
 }
 
-.grid-container.test {
+.grid-container.skills {
   background-color: rgba(0, 0, 0, 0.4);
   border: hidden;
+  height: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+.skills{
+  line-height: 2em;
+}
+.skill-start {
+  list-style: none;
+}
+
+.image-projects {
+  background: url(../assets/img/bridge.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container.projects {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
   height: 800px;
+  text-align: center;
+  color: #fff;
+}
+
+.cell.projects, .cell.skills {
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.image-contact {
+  background: url(../assets/img/tree-sky.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container.contact {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: hidden;
+  height: 500px;
   text-align: center;
   color: #fff;
 }
@@ -43,8 +97,18 @@
   height: 400px;
 }
 
-.grid-x,
-.grid-y {
+.grid-x.skills {
+  height: 400px;
+}
+
+.grid-x.projects {
+  height: 400px;
+}
+
+.grid-x.contact {
+  height: 400px;
+}
+.grid-x {
   margin-bottom: 1rem;
 }
 
