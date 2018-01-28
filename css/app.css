@@ -1,9 +1,12 @@
 .title-bar {
-  height: 4rem;
+  width: 100%;
+  z-index: 10;
+  height: 4.5em;
+  padding-top: 0em;
 }
 
 .image-main {
-  background: url(../assets/img/background-main.jpg) no-repeat center fixed;
+  background: url(../assets/img/tree-main.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,13 +17,13 @@
 .grid-container.main {
   background-color: rgba(0, 0, 0, 0.4);
   border: hidden;
-  height: 700px;
+  height: 750px;
   text-align: center;
   color: #fff;
 }
 
 .image-test {
-  background: url(../assets/img/background.jpg) no-repeat center fixed;
+  background: url(../assets/img/tree-path.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

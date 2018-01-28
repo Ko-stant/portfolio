@@ -1,7 +1,25 @@
 $(document).foundation()
 
-$('.title-bar').on('sticky.zf.stuckto:top', function () {
-  $(this).addClass('shrink')
-}).on('sticky.zf.unstuckfrom:top', function () {
-  $(this).removeClass('shrink')
+$('#menu-about').click(function () {
+  $('html, body').animate({
+    scrollTop: $('body').offset().top
+  }, 1000)
 })
+
+$('#menu-skills').click(function () {
+  $('html, body').animate({
+    scrollTop: $('#skills').offset().top
+  }, 1000)
+})
+
+// $('#menu-projects').click(function () {
+//   $('html, body').animate({
+//     scrollTop: $('#projects').offset().top
+//   }, 1000)
+// })
+
+// $('#menu-contact').click(function () {
+//   $('html, body').animate({
+//     scrollTop: $('#contact').offset().top
+//   }, 1000)
+// })
