@@ -1,3 +1,50 @@
-body {
-  background-color: #0a0;
+.title-bar {
+  height: 4rem;
 }
+
+.image-main {
+  background: url(../assets/img/background-main.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container.main {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: hidden;
+  height: 700px;
+  text-align: center;
+  color: #fff;
+}
+
+.image-test {
+  background: url(../assets/img/background.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-container.test {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: hidden;
+  height: 800px;
+  text-align: center;
+  color: #fff;
+}
+
+.grid-x.main {
+  height: 400px;
+}
+
+.grid-x,
+.grid-y {
+  margin-bottom: 1rem;
+}
+
+/* .cell {
+  border: 1px solid black;
+} */
