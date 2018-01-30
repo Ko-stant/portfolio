@@ -58,6 +58,12 @@ a {
   list-style: none;
 }
 
+@media screen and (max-width: 40em){
+  .skill-break {
+    list-style: none;
+  }
+}
+
 .cell.projects, .cell.skills {
   margin-bottom: 5em;
   margin-top: 5em;
