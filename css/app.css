@@ -1,9 +1,15 @@
 body {
   background-color: #000;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 a {
   color: #ddd;
+}
+
+.button.radius {
+  border-radius: 3px;
+  background-color: #111;
 }
 
 .title-bar {
@@ -19,13 +25,12 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
 }
 
 .grid-container.main {
   background-color: rgba(0, 0, 0, 0.4);
   border: hidden;
-  height: 750px;
+  height: 900px;
   text-align: center;
   color: #fff;
 }
@@ -36,7 +41,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
 }
 
 .grid-container.skills {
@@ -65,7 +69,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
 }
 
 .grid-container.projects {
@@ -97,7 +100,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
 }
 
 .grid-container.contact {
