@@ -20,7 +20,8 @@ a {
 }
 
 .headshot {
-  padding-top: 30px;
+  border-radius: 15px;
+  margin-top: 30px;
   height: 180px;
   width: 150px;
 }
@@ -89,9 +90,15 @@ a {
 .grid-container.projects {
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
-  height: 1800px;
+  height: 1900px;
   text-align: center;
   color: #fff;
+}
+
+.projects-div {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: hidden;
+  margin-bottom: 5px;
 }
 
 @media screen and (min-width: 40em){
@@ -109,6 +116,10 @@ a {
 .proj-link:hover {
   color: #a0f;
   cursor: pointer;
+}
+
+.repo-link {
+  color: #af0;
 }
 
 .image-contact {
