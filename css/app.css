@@ -19,6 +19,12 @@ a {
   padding-top: 0em;
 }
 
+.headshot {
+  padding-top: 30px;
+  height: 180px;
+  width: 150px;
+}
+
 .image-main {
   background: url(../assets/img/tree-main.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
@@ -62,6 +68,9 @@ a {
   .skill-break {
     list-style: none;
   }
+  .grid-container.main {
+    height: 900px;
+  }
 }
 
 .cell.projects, .cell.skills {
@@ -97,8 +106,10 @@ a {
   }
 }
 
-
-
+.proj-link:hover {
+  color: blue;
+  cursor: pointer;
+}
 
 .image-contact {
   background: url(../assets/img/tree-sky.jpg) no-repeat center fixed;
@@ -133,6 +144,16 @@ a {
 }
 .grid-x {
   margin-bottom: 1rem;
+}
+
+.tic-tac,
+.peaks {
+  height: 300px;
+  min-width: 250px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* .cell {
