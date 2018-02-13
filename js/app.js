@@ -23,3 +23,11 @@ $('#menu-contact').click(function () {
     scrollTop: $('#contact').offset().top
   }, 1000)
 })
+
+$('.tic-tac-proj').click(function () {
+  window.open('https://ko-stant.github.io/tic-tac-toe-project/', '_blank')
+})
+
+$('.peaks-proj').click(function () {
+  window.open('https://ko-stant.github.io/48-Peaks-FrontEnd/', '_blank')
+})
