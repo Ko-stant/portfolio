@@ -96,7 +96,7 @@ a {
 .grid-container.projects {
   background-color: rgba(0, 0, 0, 0.85);
   border: none;
-  height: 1900px;
+  height: 2200px;
   text-align: center;
   color: #fff;
 }
@@ -110,13 +110,13 @@ a {
 
 @media screen and (min-width: 40em){
   .grid-container.projects {
-    height: 1200px;
+    height: 1300px;
   }
 }
 
 @media screen and (min-width: 64em){
   .grid-container.projects {
-    height: 800px;
+    height: 1000px;
   }
 }
 
@@ -166,7 +166,8 @@ a {
 
 .tic-tac,
 .peaks,
-.curlpower {
+.curlpower,
+.homepage {
   height: 300px;
   min-width: 250px;
   -webkit-background-size: cover;

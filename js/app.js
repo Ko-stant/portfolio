@@ -31,3 +31,11 @@ $('.tic-tac-proj').click(function () {
 $('.peaks-proj').click(function () {
   window.open('https://ko-stant.github.io/48-Peaks-FrontEnd/', '_blank')
 })
+
+$('.surv-proj').click(function () {
+  window.open('https://curlpower.github.io/curlpower/', '_blank')
+})
+
+$('.homepage-proj').click(function () {
+  window.open('https://ko-stant.github.io/homepage/', '_blank')
+})
